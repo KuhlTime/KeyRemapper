@@ -14,6 +14,8 @@
 		13B77E7B1F81327A00C185A2 /* KeyRemapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B77E7A1F81327A00C185A2 /* KeyRemapperTests.swift */; };
 		13B77E861F81327A00C185A2 /* KeyRemapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B77E851F81327A00C185A2 /* KeyRemapperUITests.swift */; };
 		13B77E991F81576C00C185A2 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B77E981F81576C00C185A2 /* Key.swift */; };
+		13D9A9381FA28A3900E9F0A7 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9A9371FA28A3900E9F0A7 /* KeyView.swift */; };
+		13D9A93A1FA28A4C00E9F0A7 /* Key.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D9A9391FA28A4C00E9F0A7 /* Key.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		13B77E871F81327A00C185A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B77E931F81329A00C185A2 /* KeyRemapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyRemapper-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B77E981F81576C00C185A2 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		13D9A9371FA28A3900E9F0A7 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		13D9A9391FA28A4C00E9F0A7 /* Key.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Key.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				13B77E671F81327A00C185A2 /* AppDelegate.swift */,
 				13B77E691F81327A00C185A2 /* ViewController.swift */,
 				13B77E6B1F81327A00C185A2 /* Assets.xcassets */,
+				13D9A9371FA28A3900E9F0A7 /* KeyView.swift */,
+				13D9A9391FA28A4C00E9F0A7 /* Key.xib */,
 				13B77E6D1F81327A00C185A2 /* Main.storyboard */,
 				13B77E701F81327A00C185A2 /* Info.plist */,
 				13B77E981F81576C00C185A2 /* Key.swift */,
@@ -237,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D9A93A1FA28A4C00E9F0A7 /* Key.xib in Resources */,
 				13B77E6C1F81327A00C185A2 /* Assets.xcassets in Resources */,
 				13B77E6F1F81327A00C185A2 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D9A9381FA28A3900E9F0A7 /* KeyView.swift in Sources */,
 				13B77E6A1F81327A00C185A2 /* ViewController.swift in Sources */,
 				13B77E681F81327A00C185A2 /* AppDelegate.swift in Sources */,
 				13B77E991F81576C00C185A2 /* Key.swift in Sources */,

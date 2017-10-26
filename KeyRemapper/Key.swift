@@ -48,7 +48,7 @@ public enum Key {
     case enter
     case esc
     case delete
-    case tap
+    case tab
     case spacebar
     case spacer
     case equal
@@ -169,7 +169,7 @@ public enum Key {
         case "enter": self = .enter
         case "esc": self = .esc
         case "delete": self = .delete
-        case "tap": self = .tap
+        case "tap": self = .tab
         case "spacebar": self = .spacebar
         case "spacer": self = .spacer
         case "equal": self = .equal
@@ -293,7 +293,7 @@ public enum Key {
         case .enter: return 0x700000028
         case .esc: return 0x700000029
         case .delete: return 0x70000002A
-        case .tap: return 0x70000002B
+        case .tab: return 0x70000002B
         case .spacebar: return 0x70000002C
         case .spacer: return 0x70000002D
         case .equal: return 0x70000002E
@@ -416,7 +416,7 @@ public enum Key {
         case .enter: return "Keyboard Return (Enter)"
         case .esc: return "Keyboard Escape"
         case .delete: return "Keyboard Delete (Backspace)"
-        case .tap: return "Keyboard Tab"
+        case .tab: return "Keyboard Tab"
         case .spacebar: return "Keyboard Spacebar"
         case .spacer: return "Keyboard - and _"
         case .equal: return "Keyboard = and +"
@@ -497,6 +497,129 @@ public enum Key {
         case .rightCommand: return "Keyboard Right GUI"
         }
     }
+    
+    public var keyDescribtions: [String] {
+        switch self {
+        case .a: return ["A"]
+        case .b: return ["B"]
+        case .c: return ["C"]
+        case .d: return ["D"]
+        case .e: return ["E"]
+        case .f: return ["F"]
+        case .g: return ["G"]
+        case .h: return ["H"]
+        case .i: return ["I"]
+        case .j: return ["J"]
+        case .k: return ["K"]
+        case .l: return ["L"]
+        case .m: return ["M"]
+        case .n: return ["N"]
+        case .o: return ["O"]
+        case .p: return ["P"]
+        case .q: return ["Q"]
+        case .r: return ["R"]
+        case .s: return ["S"]
+        case .t: return ["T"]
+        case .u: return ["U"]
+        case .v: return ["V"]
+        case .w: return ["W"]
+        case .x: return ["X"]
+        case .y: return ["Y"]
+        case .z: return ["Z"]
+        case .one: return ["1", "!"]
+        case .two: return ["2", "@"]
+        case .three: return ["3", "#"]
+        case .four: return ["4", "$"]
+        case .five: return ["5", "%"]
+        case .six: return ["6", "^"]
+        case .seven: return ["7", "&"]
+        case .eight: return ["8", "*"]
+        case .nine: return ["9", "("]
+        case .zero: return ["0", ")"]
+        case .enter: return ["⮐"]
+        case .esc: return ["␛"]
+        case .delete: return ["␡"]
+        case .tab: return ["⇥"]
+        case .spacebar: return [""]
+        case .spacer: return ["-", "_"]
+        case .equal: return ["=", "+"]
+        case .leftBracket: return ["[", "{"]
+        case .rightBracket: return ["]", "}"]
+        case .backSlash: return ["\\", "|"]
+        case .tilde: return ["#", "~"]
+        case .semicolon: return [";", ":"]
+        case .quotes: return ["'", "\""]
+        case .comma: return [",", "<"]
+        case .dot: return [".", ">"]
+        case .slash: return [";", ":"]
+        case .capsLock: return ["⇪"]
+        case .f1: return ["F1"]
+        case .f2: return ["F2"]
+        case .f3: return ["F3"]
+        case .f4: return ["F4"]
+        case .f5: return ["F5"]
+        case .f6: return ["F6"]
+        case .f7: return ["F7"]
+        case .f8: return ["F8"]
+        case .f9: return ["F9"]
+        case .f10: return ["F10"]
+        case .f11: return ["F11"]
+        case .f12: return ["F12"]
+        case .printScreen: return ["Print"]
+        case .scrollLock: return ["Scroll-Lock"]
+        case .pause: return ["⏸"]
+        case .insert: return ["Insert"]
+        case .home: return ["Home"]
+        case .pageUp: return ["Page Up"]
+        case .deleteForward: return ["Delete Forward"]
+        case .end: return ["End"]
+        case .padeDown: return ["Page Down"]
+        case .rightArrow: return ["→"]
+        case .leftArrow: return ["←"]
+        case .downArrow: return ["↓"]
+        case .upArrow: return ["↑"]
+        case .numLock: return ["NumLock"]
+        case .keypadSlash: return ["/"]
+        case .keypadMultiply: return ["*"]
+        case .keypadMinus: return ["-"]
+        case .keypadPlus: return ["+"]
+        case .keypadEnter: return ["⮐"]
+        case .keypadOne: return ["1", "End"]
+        case .keypadTwo: return ["2", "↓"]
+        case .keypadThree: return ["3", "Page Down"]
+        case .keypadFour: return ["4", "←"]
+        case .keypadFive: return ["5"]
+        case .keypadSix: return ["6", "→"]
+        case .keypadSeven: return ["7", "Home"]
+        case .keypadEight: return ["8", "↑"]
+        case .keypadNine: return ["9", "Page Up"]
+        case .keypadZero: return ["0", "Insert"]
+        case .keypadDot: return [".", "␡"]
+        case .application: return ["Application"]
+        case .power: return ["Power"]
+        case .keypadEqual: return ["="]
+        case .f13: return ["F13"]
+        case .f14: return ["F14"]
+        case .f15: return ["F15"]
+        case .f16: return ["F16"]
+        case .f17: return ["F17"]
+        case .f18: return ["F18"]
+        case .f19: return ["F19"]
+        case .f20: return ["F20"]
+        case .f21: return ["F21"]
+        case .f22: return ["F22"]
+        case .f23: return ["F23"]
+        case .f24: return ["F24"]
+        case .leftControl: return ["Left Control"]
+        case .leftShift: return ["Left Shift"]
+        case .leftOption: return ["Left Alt"]
+        case .leftCommand: return ["Left GUI"]
+        case .rightControl: return ["Right Control"]
+        case .rightShift: return ["Right Shift"]
+        case .rightOption: return ["Right Alt"]
+        case .rightCommand: return ["Right GUI"]
+        }
+    }
 
-    static let allValues = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, one, two, three, four, five, six, seven, eight, nine, zero, enter, esc, delete, tap, spacebar, spacer, equal, leftBracket, rightBracket, backSlash, tilde, semicolon, quotes, comma, dot, slash, capsLock, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, printScreen, scrollLock, pause, insert, home, pageUp, deleteForward, end, padeDown, rightArrow, leftArrow, downArrow, upArrow, numLock, keypadSlash, keypadMultiply, keypadMinus, keypadPlus, keypadEnter, keypadOne, keypadTwo, keypadThree, keypadFour, keypadFive, keypadSix, keypadSeven, keypadEight, keypadNine, keypadZero, keypadDot, application, power, keypadEqual, f13, f14, f15, f16, f17, f18, f19, f20, f21, f22, f23, f24, leftControl, leftShift, leftOption, leftCommand, rightControl, rightShift, rightOption, rightCommand]
+    static let allValues = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, one, two, three, four, five, six, seven, eight, nine, zero, enter, esc, delete, tab, spacebar, spacer, equal, leftBracket, rightBracket, backSlash, tilde, semicolon, quotes, comma, dot, slash, capsLock, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, printScreen, scrollLock, pause, insert, home, pageUp, deleteForward, end, padeDown, rightArrow, leftArrow, downArrow, upArrow, numLock, keypadSlash, keypadMultiply, keypadMinus, keypadPlus, keypadEnter, keypadOne, keypadTwo, keypadThree, keypadFour, keypadFive, keypadSix, keypadSeven, keypadEight, keypadNine, keypadZero, keypadDot, application, power, keypadEqual, f13, f14, f15, f16, f17, f18, f19, f20, f21, f22, f23, f24, leftControl, leftShift, leftOption, leftCommand, rightControl, rightShift, rightOption, rightCommand]
 }

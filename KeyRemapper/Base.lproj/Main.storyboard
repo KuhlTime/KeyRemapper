@@ -723,6 +723,9 @@
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
+                                <connections>
+                                    <action selector="popUpSelectionDidChange:" target="XfG-lQ-9wD" id="SjR-qg-T3Q"/>
+                                </connections>
                             </popUpButton>
                             <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-zG-oCt">
                                 <rect key="frame" x="358" y="302" width="76" height="26"/>
@@ -737,6 +740,9 @@
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
+                                <connections>
+                                    <action selector="popUpSelectionDidChange:" target="XfG-lQ-9wD" id="46u-1P-GXV"/>
+                                </connections>
                             </popUpButton>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HNV-x2-wzq">
                                 <rect key="frame" x="310" y="307" width="17" height="17"/>
@@ -823,26 +829,46 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
+                            <containerView translatesAutoresizingMaskIntoConstraints="NO" id="bN4-4o-seM">
+                                <rect key="frame" x="221" y="257" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="FfW-gU-NQb"/>
+                                    <constraint firstAttribute="width" constant="40" id="JBT-bO-ken"/>
+                                </constraints>
+                            </containerView>
+                            <containerView translatesAutoresizingMaskIntoConstraints="NO" id="0EB-HH-JSl">
+                                <rect key="frame" x="375" y="257" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8XN-Ct-2jH"/>
+                                    <constraint firstAttribute="height" constant="40" id="md0-n3-CUM"/>
+                                </constraints>
+                            </containerView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="Ghh-ww-HNS" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="2Xw-g6-MdU"/>
                             <constraint firstAttribute="trailing" secondItem="ZUI-k3-j8Q" secondAttribute="trailing" id="3Os-2H-9oJ"/>
                             <constraint firstItem="ZUI-k3-j8Q" firstAttribute="top" secondItem="Ghh-ww-HNS" secondAttribute="bottom" constant="20" id="8cU-GE-3K9"/>
                             <constraint firstItem="ZUI-k3-j8Q" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="DcM-KJ-eco"/>
+                            <constraint firstItem="0EB-HH-JSl" firstAttribute="centerX" secondItem="BTT-zG-oCt" secondAttribute="centerX" id="IYO-Hk-0Wo"/>
                             <constraint firstItem="HNV-x2-wzq" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="LOx-Ek-jXy"/>
+                            <constraint firstItem="bN4-4o-seM" firstAttribute="centerX" secondItem="0VE-0t-P3E" secondAttribute="centerX" id="O1E-D7-YQ3"/>
+                            <constraint firstItem="bN4-4o-seM" firstAttribute="top" secondItem="0VE-0t-P3E" secondAttribute="bottom" constant="8" id="Tkl-fJ-tac"/>
                             <constraint firstItem="HNV-x2-wzq" firstAttribute="leading" secondItem="0VE-0t-P3E" secondAttribute="trailing" constant="35" id="Yfn-tN-ci3"/>
                             <constraint firstItem="BTT-zG-oCt" firstAttribute="centerY" secondItem="HNV-x2-wzq" secondAttribute="centerY" id="bw5-4q-1eD"/>
                             <constraint firstItem="Ghh-ww-HNS" firstAttribute="top" secondItem="HNV-x2-wzq" secondAttribute="bottom" constant="22" id="jBx-xF-r5V"/>
                             <constraint firstItem="0VE-0t-P3E" firstAttribute="centerY" secondItem="HNV-x2-wzq" secondAttribute="centerY" id="k1M-uW-Ut5"/>
                             <constraint firstItem="BTT-zG-oCt" firstAttribute="leading" secondItem="HNV-x2-wzq" secondAttribute="trailing" constant="35" id="ozn-Xu-hkc"/>
                             <constraint firstAttribute="bottom" secondItem="ZUI-k3-j8Q" secondAttribute="bottom" id="rQN-MM-PBv"/>
+                            <constraint firstItem="0EB-HH-JSl" firstAttribute="top" secondItem="BTT-zG-oCt" secondAttribute="bottom" constant="8" id="x7h-bz-p0o"/>
                             <constraint firstItem="HNV-x2-wzq" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="30" id="zvC-7k-k6o"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="activateButton" destination="Ghh-ww-HNS" id="ciU-dr-gCm"/>
+                        <outlet property="fromKeyContainer" destination="bN4-4o-seM" id="5Re-vx-co2"/>
                         <outlet property="fromPopUpButton" destination="0VE-0t-P3E" id="aul-FC-6XA"/>
                         <outlet property="tableView" destination="bjC-7B-K68" id="2Cj-Ir-3tf"/>
+                        <outlet property="toKeyContainer" destination="0EB-HH-JSl" id="Ykk-Cb-aBz"/>
                         <outlet property="toPopUpButton" destination="BTT-zG-oCt" id="i4L-bG-aiw"/>
                     </connections>
                 </viewController>
