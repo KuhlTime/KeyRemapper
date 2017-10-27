@@ -1,6 +1,6 @@
 <!--<div align="center">-->
 
-<img src="https://github.com/kuhltime/KeyRemapper/raw/master/KeyRemapper/Assets.xcassets/AppIcon.appiconset/Mac-256.png" style="width: 100px">
+<img src="https://github.com/kuhltime/KeyRemapper/raw/master/KeyRemapper/Assets.xcassets/AppIcon.appiconset/Mac-256.png" style="max-width: 100px">
 
 # KeyRemapper
 
@@ -18,7 +18,7 @@ KeyRemapper is an easy to use macOS application to apply custom key mappings.
 
 Download the latest release <a href="#" style="text-decoration: none">here</a>.
 
-Install using homebrew <img src="https://brew.sh/img/homebrew-256x256.png" style="height: 14px">:
+Install using homebrew <img src="https://brew.sh/img/homebrew-256x256.png" style="max-height: 14px">:
 
 ``` sh
 $ brew cask install keyremapper
