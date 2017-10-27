@@ -21,11 +21,11 @@ Install using homebrew <img src="https://brew.sh/img/homebrew-256x256.png" heigh
 $ brew cask install keyremapper
 ```
 
-## Describtion
-At the begining I used the core script of this application as a starting point for another app I'm currently working on. Until I realised that this app may servers some users needs, so I seatled down for a couple of hours and converted my script to a usable app. I hope it will fullfill your needs. 
+## Description
+At the beginning I used the core script of this application as a starting point for another app I'm currently working on. Until I realised that this app may servers some users needs, so I settled down for a couple of hours and converted my script to a usable app. I hope it will fulfil your demands. 
 
 ## Contribution
-Please feel free to further develop this application or to use my code for your own needs. But be warned that I'm by no means an expert, so don't consider this code as a best practice. If I have made any mistakes I would be glade to accept your pull requests.
+Please feel free to further develop this application or to use my code for your own needs. But be warned that I'm by no means an expert, so don't consider this code as a best practice. If I have made any mistakes I would be glad to accept your pull requests.
 
 <br>
 
