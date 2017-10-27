@@ -7,8 +7,6 @@
 [![Version](https://img.shields.io/github/release/KuhlTime/KeyRemapper.svg)](https://github.com/kuhltime/KeyRemapper/releases)
 ![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg)
 
---
-
 KeyRemapper is an easy to use macOS application to apply custom key mappings.
 <a href="#" style="text-decoration: none">Website</a> ·
 <a href="https://github.com/kuhltime/KeyRemapper/releases" style="text-decoration: none">Releases</a>
@@ -33,7 +31,7 @@ Please feel free to further develop this application or to use my code for your 
 
 <br>
 
---
+---
 
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/KuhlTime/KeyRemapper.svg?style=social)](https://twitter.com/intent/tweet?text=Remap%20Keys%20on%20macOS:&url=https%3A%2F%2Fgithub.com%2FKuhlTime%2FKeyRemapper)
 
