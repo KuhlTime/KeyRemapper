@@ -1,5 +1,3 @@
-<!--<div align="center">-->
-
 <img src="https://github.com/kuhltime/KeyRemapper/raw/master/KeyRemapper/Assets.xcassets/AppIcon.appiconset/Mac-256.png" width="100" height="100">
 
 # KeyRemapper
@@ -11,7 +9,7 @@ KeyRemapper is an easy to use macOS application to apply custom key mappings.
 <a href="#" style="text-decoration: none">Website</a> ·
 <a href="https://github.com/kuhltime/KeyRemapper/releases" style="text-decoration: none">Releases</a>
 
-<!--</div>-->
+<img src="https://github.com/kuhltime/KeyRemapper/raw/gh-pages/assets/screenshot.png">
 
 ## Installation
 
