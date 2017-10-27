@@ -13,7 +13,7 @@ KeyRemapper is an easy to use macOS application to apply custom key mappings.
 
 ## Installation
 
-Download the latest release <a href="#" style="text-decoration: none">here</a>.
+Download the latest release <a href="https://github.com/kuhltime/KeyRemapper/releases" style="text-decoration: none">here</a>.
 
 Install using homebrew <img src="https://brew.sh/img/homebrew-256x256.png" height="14">:
 
