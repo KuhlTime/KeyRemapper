@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13679BD81FA33BAA009CF1FF /* KeyManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13679BD71FA33BAA009CF1FF /* KeyManipulation.swift */; };
 		13B77E681F81327A00C185A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B77E671F81327A00C185A2 /* AppDelegate.swift */; };
 		13B77E6A1F81327A00C185A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B77E691F81327A00C185A2 /* ViewController.swift */; };
 		13B77E6C1F81327A00C185A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B77E6B1F81327A00C185A2 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13679BD71FA33BAA009CF1FF /* KeyManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManipulation.swift; sourceTree = "<group>"; };
 		13B77E641F81327A00C185A2 /* KeyRemapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyRemapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B77E671F81327A00C185A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13B77E691F81327A00C185A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				13B77E6D1F81327A00C185A2 /* Main.storyboard */,
 				13B77E701F81327A00C185A2 /* Info.plist */,
 				13B77E981F81576C00C185A2 /* Key.swift */,
+				13679BD71FA33BAA009CF1FF /* KeyManipulation.swift */,
 				13B77E711F81327A00C185A2 /* KeyRemapper.entitlements */,
 				13B77E931F81329A00C185A2 /* KeyRemapper-Bridging-Header.h */,
 			);
@@ -274,6 +277,7 @@
 				13B77E6A1F81327A00C185A2 /* ViewController.swift in Sources */,
 				13B77E681F81327A00C185A2 /* AppDelegate.swift in Sources */,
 				13B77E991F81576C00C185A2 /* Key.swift in Sources */,
+				13679BD81FA33BAA009CF1FF /* KeyManipulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

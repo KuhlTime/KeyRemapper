@@ -8,10 +8,7 @@
 
 import Cocoa
 
-struct KeyManipulation {
-    let fromKey: Key
-    var toKey: Key
-}
+let defaults = UserDefaults.standard
 
 class ViewController: NSViewController {
     
@@ -29,6 +26,9 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // TODO: Try to restore activeManipulations from NSUserDefaults
+        
+        // Set the initial state for the key containers
         updateKeyContainers()
         
         tableView.allowsEmptySelection = false
@@ -74,6 +74,8 @@ class ViewController: NSViewController {
             
             // Add the new keyManipulation to the activeManipulations array
             activeManipulations += [keyManipulation]
+            
+            // TODO: Save the activeManipulations Array to the UserDefaults
         }
         
         // At first there is now value that can ae updated or deleted
