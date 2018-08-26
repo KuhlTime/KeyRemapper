@@ -15,12 +15,6 @@ KeyRemapper is an easy to use macOS application to apply custom key mappings.
 
 Download the latest release <a href="https://github.com/kuhltime/KeyRemapper/releases" style="text-decoration: none">here</a>.
 
-Install using homebrew <img src="https://brew.sh/img/homebrew-256x256.png" height="14">:
-
-``` sh
-$ brew cask install keyremapper
-```
-
 ## Description
 At the beginning I used the core script of this application as a starting point for another app I'm currently working on. Until I realised that this app may servers some users needs, so I settled down for a couple of hours and converted my script to a usable app. I hope it will fulfil your demands. 
 
